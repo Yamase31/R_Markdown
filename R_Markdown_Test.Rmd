@@ -1,0 +1,25 @@
+---
+title: "Testing out R Markdown"
+author: "James"
+date: "12/12/2016"
+output: html_document
+---
+
+## R Markdown
+
+Hello! This is R Markdown file for the data set AirPassengers!
+
+
+```{r}
+library(datasets)
+data("AirPassengers")
+summary(AirPassengers)
+```
+
+## Including Plots
+
+Plot for the data set AirPassengers:
+
+```{r}
+plot(AirPassengers)
+```
